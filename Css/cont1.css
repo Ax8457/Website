@@ -1,0 +1,79 @@
+.cont1{
+    height: 100vh;
+    position: relative;
+    padding-top: 85px;
+    border:none;
+    margin:0;
+    background-image:url('../Images/fond.png');
+    border-bottom: 3px solid rgb(44, 44, 161);
+
+}
+
+
+
+.title, .logoContact, .goDown,.click{
+    position: relative;
+    text-align: center;
+}
+
+.logoContact{
+   
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.title {
+    margin:auto;
+    width:100%;
+    
+    color: white;
+    text-decoration: underline ;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 18vh;
+}
+
+.title p{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.logoContact a{
+    color:lightblue;
+    font-size: 50px;
+    padding: 0 5px 0 5px ;
+}
+
+.goDown i{
+    font-size: 50px;
+
+}
+
+.goDown button{
+    padding : 7px;
+    cursor: pointer;
+    border: none;
+    border: 2px solid rgb(44, 44, 161);
+    color: rgb(44, 44, 161);
+}
+
+.goDown{
+    color:rgb(44, 44, 161);
+    margin-top: 20vh;
+  
+}
+
+.click{
+    padding:5px;
+    font-size: 10px;
+    font-style: italic;
+    color:white;
+    justify-content: center;
+}
+
+
+

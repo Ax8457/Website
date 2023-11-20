@@ -1,0 +1,98 @@
+.cont4{
+    background-color: white;
+    
+    border-top: 3px solid #cccccc;
+    padding:15px 15px 100px 15px;
+}
+
+.timeline{
+   
+    width:75%;
+    margin: auto;
+    display: block;
+}
+
+
+.item{
+    display:flex;
+    margin:auto;
+}
+
+.circle{
+    border-radius: 10px;
+    margin: auto;
+    background-color: lightblue;
+    
+}
+
+.circle i{
+    color:white;
+    padding:15px;
+    font-size: 30px;
+}
+
+.step{
+    padding:10px;
+    width:75%;
+    border-radius: 5px;
+    background-color: white;
+    margin:15px auto;
+    border: solid 3px lightblue;
+}
+
+.step h2{
+    font-size: 25px;
+}
+.step h3{
+    float: right;
+    color : lightblue; 
+    font-size: 22px;
+}
+
+.step h4{
+    font-weight: lighter;
+    padding : 0 5px 0 5px;
+    font-size: 20px;
+}
+
+.step h5{
+    font-size: 20px;
+    padding : 10px;
+    color : lightblue;
+
+}
+.step ul{
+    margin-left:35px;
+}
+
+.step ul li{
+    margin: 10px 3px 10px 3px ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trait{
+    margin: auto;
+    border-top:solid 2px lightblue;
+    width:10%;
+}
+
+.step p{
+    font-weight: lighter;
+    font-size: 17px;
+    padding:2px;
+}
+
+.cont4 img{
+    height: 40px;
+    float:left;
+    padding: 5px;
+}
+
+.none{
+    display: none;
+}
+
+.cont4 .filter{
+    margin-bottom: 20px;
+}

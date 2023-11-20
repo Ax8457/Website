@@ -1,0 +1,167 @@
+header{
+    padding:5px 0 5px 0 ;
+    position: fixed;
+    width:100%;
+    height:75px;
+    background-color: white;
+    /*border-bottom: 3px solid #cccccc;*/
+    z-index:10;
+   
+    box-shadow: 5px 5px 10px #cccccc;
+}
+
+/*header:hover{
+    opacity:1.0; 
+    transition: 0.5s;
+}*/
+
+.Logo img{
+  height:100%;
+}
+
+.SelectLang{
+    float:left;
+    position: relative;
+}
+
+.menu{
+    display:none;
+    float: right;
+    position:relative;
+}
+
+.SwitchLight a{
+    font-size: 45px;
+}
+
+.SLbutton{
+    top : 15px;
+    border:none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.SwitchLight{
+    padding-right:15px;
+    padding-left: 15px;
+    top:13px;
+    height: 55px;
+    float:right;
+    position: relative;
+}
+
+.selectmenu{
+    margin-top:6px;
+    display:none ;
+    /*display:block;*/
+    background-color: white;
+    text-align: center;
+
+}
+
+.selectmenu ul{
+    list-style-type: none;
+}
+
+
+
+.selectmenu button{
+    width:100%;
+    cursor: pointer;
+    padding : 10px ;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.SelectLang{
+    float: left;
+    position: relative;
+    top:10px;
+    padding:5px;
+    height: 45px;
+}
+
+.Logo{
+    float: left;
+    position: relative;
+    top:10px;
+    
+    padding:5px;
+    height: 49px;
+}
+
+.SelectLang{
+    border:2px solid black;
+    margin: 0 5px 0 5px ;
+}
+
+.Logo{
+    border-right:3px solid black;
+    margin: 0 5px 0 5px ;
+}
+
+
+.SelectLang img{
+    height: 45px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.select{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select i {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.LangChoice{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.menunav{
+    display:none;
+    position: fixed;
+    z-index: 10;
+    margin-top: 87px;
+    padding: 10px;
+    right:5px;
+    font-size: 20px;
+}
+
+.menunav ul {
+    list-style: none;
+    margin:0 auto;
+    text-align: center;
+}
+
+.menunav li{
+    cursor: pointer;
+    background-color: white;
+    padding:10px 15px 10px 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    box-shadow: 5px 5px 10px #cccccc;
+}
+
+.labtopmenu{
+    top:10px;
+    padding:12px;
+    position: relative;
+    float:right;
+    font-size: 29px;
+   border-right:3px solid;
+}
+
+.labtopmenu a{
+    padding:10px;
+    border-radius: 8px;
+}
+

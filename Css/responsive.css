@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1085px){
+    header{
+        opacity: 1.0;
+    }
+    .layer{
+        width:90%;
+        display: block;
+        padding: 0 10px 0 10px ;
+        }
+
+    .skillbox{
+        width:100%;
+        margin:10px auto;
+    }
+    .contTilte{
+        width:100%;
+    }
+    
+    .CVRMTHMbuttons a{
+        color:white;
+    }
+
+    .projbox{
+        margin:10px auto;
+        width:90%;}
+    
+    .Projets{
+        padding:25px 0 25px 0;
+        width:100%;
+        margin:auto;
+        display: block;
+    }
+    .column{
+        padding:0px;
+        width:100%;
+        margin:auto;
+        display:block;
+    }
+
+    .title{
+        width:100%;
+        font-size:45px;
+        margin-top: 25vh;
+    }
+
+    .text{
+        width:100%;
+        text-align:justify;
+
+    }
+
+    .tab2top{
+        display:block;
+    }
+
+    .tab2top img{
+        height:50px;
+    }
+
+    .logos{
+        padding:5px;
+        width:100%;
+        margin: auto; 
+    }
+    .title p{
+        
+        font-size: 35px;
+    }
+    .doc{
+        width:20%;
+    }
+
+    .but{
+        display:none;
+    }
+
+    .Logo img{
+        height: 100%;
+    }
+
+    .SwitchLight{
+        padding-right:5px;
+        padding-left: 5px;
+    }
+
+    .menunav{
+        position:fixed;
+        right:5px;
+        }
+        
+    .trait{
+        display:none;
+    }
+
+    .item{
+        width:100%;
+        display:block;
+    }
+
+    .timeline{
+        width:100%
+    }
+
+    .circle i{
+        margin:auto;
+    }
+
+    .filter{
+        width:30vh;
+    }
+
+    .CopyrightContact{
+        width:95%;
+    }
+
+    .step{width:90%;}
+
+    .none{display:none;}  
+    
+    .contTitle{
+        width:75%
+    }
+
+    .cont4 img{
+        float:right;
+    }
+    
+    .step h5{
+        width:75%;
+    }
+
+    .laptop{
+        display :none;
+    }
+
+    .mobile{display:block;}
+
+    .LangChoice i{
+        color:black;
+    }
+
+    .selectmenu ul li{
+        color:black;
+    }
+    
+    .cont4 img{
+        float:none;
+        height:35px;
+    }
+
+    .menunav li{
+    border-bottom: 2px solid #cccccc;
+    box-shadow: 5px 5px 10px #cccccc;
+    }
+
+     .menu{
+        display:block;
+    }
+
+}

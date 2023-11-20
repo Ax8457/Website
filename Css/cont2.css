@@ -1,0 +1,82 @@
+.cont2{
+    margin:0;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:white;
+}
+
+ .tab1{
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+}
+
+.tab1{
+    overflow: hidden;
+    width:90%;
+    
+}
+
+.text{
+    /*background-color: blueviolet;*/
+    width:75%;
+    display: block;
+    text-align: left;
+    margin: auto;
+    text-align: justify;
+}
+
+.text p{
+    justify-content: center;
+    padding:10px;
+    font-size:20px;
+}
+
+.tab2 {
+    display : block;
+}
+
+.tab2 h2{
+    font-size:30px ;
+}
+ 
+
+.tab2 h3{
+    font-size: 25px;
+}
+
+.tab2top{
+    display: flex;
+}
+
+.logos{
+    margin-left: 15px;
+    display: flex;
+    float: right;
+}
+
+.logos img{
+    height: 60px;
+    
+}
+
+.CVRMTHMbuttons{
+    display:flex;
+    justify-content: center;
+}
+.CVRMTHMbuttons button{
+    cursor:pointer;
+    margin: 0 5px 0 5px ;
+    background-color: lightblue;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    height:50px;
+    width: 150px;
+}
+
+.CVRMTHMbuttons a{
+    color:white;
+}

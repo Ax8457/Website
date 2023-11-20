@@ -1,0 +1,10 @@
+.labtopmenu a:hover{
+    background-color: lightblue;
+    color:white;
+}
+
+.fa-angles-down:hover,.SwitchLight i:hover,.logoContact a:hover,.doc:hover{
+    transform: scale(1.25);
+    transition: 0.8s ;
+}
+

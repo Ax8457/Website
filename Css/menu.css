@@ -1,0 +1,83 @@
+.box{
+    top: 13px;
+    width:90px;
+    height:55px;
+    justify-content: center;
+    border: none;
+    cursor:pointer;
+    
+    position:relative;
+    background-color: #ffffff;
+    /*background-color: yellow;*/
+    border-left: 3px solid black;
+   
+}
+
+.lignes{
+    width:80px;
+    height:55px;
+    position: relative;
+    pointer-events: none;
+    /*background-color: red;*/
+    background-color: #ffffff;
+}
+
+.ligne{
+    background-color: #000000;
+    position: relative;
+    margin: auto;
+    border-radius:10px;
+    width: 50px;
+    height: 5px;
+    
+}
+
+.box .ligne:nth-child(1){
+    top: 10px;
+}
+
+.box .ligne:nth-child(2){
+    top: 20px;
+}
+
+.box .ligne:nth-child(3){
+    top: 30px;
+}
+
+.menu{
+    height:75px;
+}
+
+/*********Action**********/
+.box .ligne:nth-child(1), .ligne:nth-child(3){
+    transform: rotate(0deg);
+    transition: 
+    transform 0.4s ease-in-out,
+    top 0.4s 0.4s ease-in-out;
+}
+
+.box .ligne:nth-child(2){
+    transition: opacity 0.4s 0.4s ease-in-out;
+}
+
+.box.active .ligne:nth-child(1){
+    top: 25px;
+    transform: rotate(45deg);
+    transition: 
+    top 0.4s  ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.box.active .ligne:nth-child(2){
+    transition: opacity 0.4s ease-in-out;
+    opacity:0;
+}
+
+.box.active .ligne:nth-child(3){
+    top: 15px;
+    transform: rotate(-45deg);
+    transition: 
+    top 0.4s  ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+

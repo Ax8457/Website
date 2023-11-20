@@ -1,0 +1,75 @@
+.cont3{
+    padding: 15px;
+    margin:0;
+    padding-bottom:100px;
+    background-color: #dddddd;
+    display: block;
+    border-top: 3px solid #cccccc;
+    
+}
+
+.skilltexte p{
+    font-size: 18px;
+}
+
+.skilltexte a{
+    cursor: pointer;
+    color:#1E90FF;
+    text-decoration: underline;
+}
+
+.skillbox{
+    width:32%;
+    flex:1;
+    min-height: 100%;
+    margin: 0 10px 0 10px;
+    display:block;
+    /*background-color: blue;*/
+    background-color: white;
+    border: 3px solid #cccccc;
+    border-radius:5px;
+    
+}
+
+.contTitle{
+    font-size: 40px;
+    padding:10px;
+    font-weight: lighter;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.layer{
+    padding:15px;
+    margin:auto;
+    width: 80%;
+    /*background-color: blueviolet;*/
+    display:flex;
+}
+
+.skilltitle{
+    display: flex;
+    padding:5px;
+    text-align: left;
+    border-bottom: 3px solid #cccccc;
+    background-color: white;
+}
+
+.skilltitle img{
+    padding:5px;
+    height: 40px;
+}
+
+.skillbox h2{
+    padding:15px 5px 5px 5px;
+    font-size: 25px;
+    
+}
+
+.skilltexte{
+    padding:10px;
+    text-align: justify;
+    
+}

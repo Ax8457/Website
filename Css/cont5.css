@@ -1,0 +1,122 @@
+.cont5{
+    padding-left:15px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-bottom: 100px; ;
+    border-top: 3px solid #cccccc;
+    background-color: #dddddd;
+}
+
+.Projets{
+    width: 85%;
+    padding:25px 15px 25px 15px;
+    margin: auto;
+    display:flex;
+}
+
+.projbox{
+    width:95%;
+    background-color: white;
+    padding:10px;
+    margin:10px auto;
+    margin-bottom:10px;
+    border-radius: 8px;
+}
+
+.column{
+    width:35%;
+    padding:5px;
+    display:block;
+}
+
+.projtitle{
+    width:100%;
+    padding:3px;
+    display: flex;
+    border-bottom: 2px solid  #cccccc;
+}
+
+.projbox h2{ 
+    float:left;
+    width:85%;
+}
+
+.projtexte{
+    padding:5px;
+}
+
+.projtexte h3{
+    font-size: 20px;;
+    color:lightblue;
+    padding:10px 2px 2px 2px ;
+}
+
+.doc a{
+    color:white;
+}
+
+
+.doc{
+    cursor: pointer;
+    width:15%;
+    border:none;
+    background-color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    padding:5px 10px 5px 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Names{
+   
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 15px;
+    padding:3px;
+}
+
+.filter{
+    display: flex;
+    padding: 3px; ;
+    width:30vh;
+   
+    margin:auto;
+    
+}
+
+.filt1{
+    border:2px solid #cccc;
+}
+
+
+
+.filter i{
+    font-size: 20px;
+    color: gray;
+}
+
+.filter h3{
+    text-align: center;
+    padding:5px 0 5px 0;
+    width:100%;
+    font-weight: lighter;
+    
+}
+
+.filt1 .fa-filter{
+    padding:5px 8px 5px 5px;
+    border-right:2px solid #cccccc;
+}
+
+.fa-plus{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.projtexte p{
+    font-size: 18px;
+}
+
